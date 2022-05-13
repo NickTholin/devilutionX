@@ -317,6 +317,5 @@ void SyncObjectAnim(Object &object);
 void GetObjectStr(const Object &object);
 void OperateNakrulLever();
 void SyncNakrulRoom();
-void AddNakrulLeaver();
 
 } // namespace devilution
