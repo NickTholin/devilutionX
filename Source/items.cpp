@@ -1623,9 +1623,9 @@ void SpawnRock()
 	if (ActiveItemCount >= MAXITEMS)
 		return;
 
-	Object *stand = nullptr;
+	const Object *stand = nullptr;
 	for (int i = 0; i < ActiveObjectCount; i++) {
-		Object &object = Objects[ActiveObjects[i]];
+		const Object &object = Objects[ActiveObjects[i]];
 		if (object._otype == OBJ_STAND) {
 			stand = &object;
 			break;
